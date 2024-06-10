@@ -41,6 +41,9 @@
 4. Для установки Chromedriver я использовал `chromedriver_autoinstaller`.
 
 ## Запуск тестов
+### Внимание!
+
+- Запускайте тесты в выключенным VPN.
 
 ### Первый сценарий
 
@@ -81,25 +84,10 @@
     pytest tests/test_3rd_scenario.py
     ```
 
-## Структура проекта
-#### ├── pages
-#### │ └── base_page.py
-#### │ └── sbis_home_page.py
-#### │ └── sbis_contacts_page.py
-#### │ └── sbis_download_page.py    
-#### │ └── tenzor_about_page.py
-#### │ └── tenzor_home_page.py
-
-#### ├── tests
-#### │ └── conftest.py
-#### │ └── test_1st_scenario.py
-#### │ └── test_2nd_scenario.py
-#### │ └── test_3rd_scenario.py
-
-#### ├── venv
-#### ├── logger_setup
-#### ├── requirements.txt
-#### ├── README.md
+## Результаты тестов
+![Тест1](images/1stTest.png)
+![Тест2](images/2ndTest.png)
+![Тест3](images/3rdTest.png)
 
 
 
