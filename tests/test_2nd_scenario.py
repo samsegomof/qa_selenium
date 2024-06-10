@@ -1,7 +1,7 @@
 from pages.sbis_home_page import SbisHomePage
 
 
-def test_second_scenario(browser):
+def test_2nd_scenario(browser):
     """
     Второй тестовый сценарий:
         1) Перейти на https://sbis.ru/ в раздел "Контакты"
