@@ -1,0 +1,13 @@
+/venv/
+
+# IDE files
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Compiled Python files from pytest
+__pycache__/
+
+# Logs
+*.log
